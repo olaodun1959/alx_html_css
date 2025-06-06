@@ -1,0 +1,39 @@
+/* Make body a flex container with vertical layout */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* full viewport height */
+    margin: 0;
+}
+
+/* Header and footer styling */
+header,
+footer {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Make main a horizontal flex container */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* grow and shrink as needed */
+    min-height: 0; /* required for scrollbars to work properly */
+}
+
+/* Article takes 2/3 of space, and can scroll vertically */
+article {
+    flex: 2;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+/* Aside takes 1/3 of space, and can scroll vertically */
+aside {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #efefef;
+}
