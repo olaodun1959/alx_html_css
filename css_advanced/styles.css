@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #FF6565;
+  --text-color: #333;
+  --font-main: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
