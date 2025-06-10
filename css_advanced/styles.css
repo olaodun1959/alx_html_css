@@ -11,3 +11,324 @@ body {
   color: var(--text-color);
 }
 
+/* Styles for the header */
+header {
+    background-color: #6C63FF; /* A deep purple background */
+    padding: 20px 0;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Logo */
+nav img {
+    width: 120px; /* Adjust size */
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+/* Quote section */
+.quote-section {
+    background-color: #F8F8F8; /* Soft gray background for contrast */
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Quote text */
+.quote-section blockquote {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Name of the speaker */
+.quote-section h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6C63FF; /* Matching the theme */
+}
+
+/* Speaker’s role */
+.quote-section p {
+    font-size: 16px;
+    color: #777;
+}
+/* Videos List Section */
+.videos-list {
+    background-color: #F8F8F8; /* Soft gray background for contrast */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Section heading */
+.videos-list h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Container for video cards */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Individual video card */
+.video-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Video thumbnail */
+.video-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Video title */
+.video-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #6C63FF;
+    margin: 15px 0;
+}
+
+/* Video description */
+.video-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Instructor section */
+.instructor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Instructor image */
+.instructor img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Instructor name */
+.instructor h4 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Rating stars */
+.rating {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+/* Star icon */
+.rating i {
+    color: #FFD700; /* Gold star color */
+}
+
+/* Video duration */
+.video-card p:last-child {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+/* Membership section */
+.membership {
+    background-color: #6C63FF; /* Matching primary theme color */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Section heading */
+.membership h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Membership benefits grid */
+.membership-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Individual membership card */
+.membership-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Membership icon */
+.membership-card img {
+    width: 50px;
+}
+
+/* Membership title */
+.membership-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+/* Membership description */
+.membership-card p {
+    font-size: 16px;
+}
+
+/* Membership button */
+.membership button {
+    background-color: #FFD700; /* Gold accent */
+    color: rgba(0, 0, 128, 0.185);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.membership button:hover {
+    background-color: #fff;
+    color
+/* FAQ section */
+.faq {
+    background-color: #F8F8F8; /* Light gray background */
+    padding: 60px 20px;
+}
+
+/* FAQ heading */
+.faq h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* FAQ container */
+.faq-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* FAQ item */
+.faq-item {
+    width: 400px;
+}
+
+/* Question */
+.faq-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #6C63FF;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.faq-item h3:hover {
+    color: #FFD700; /* Gold hover */
+}
+
+/* Answer */
+.faq-item p {
+    font-size: 16px;
+    color: #777;
+    display: none;
+}
+
+/* Toggle FAQ visibility */
+.faq-item.active p {
+    display: block;
+}
+/* Footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Footer logo */
+.footer-logo img {
+    width: 120px;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Social media icons */
+.social-icons i {
+    font-size: 24px;
+    color: #FFD700; /* Gold icons */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social-icons i:hover {
+    color: #6C63FF; /* Primary theme */
+}
+
+/* Copyright text */
+footer p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+}
