@@ -295,8 +295,8 @@ nav ul li a:hover {
 }
 /* Footer section */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color:rgba(0, 0, 128, 0.116);
+    color: #ffffff0e;
     padding: 40px 20px;
     text-align: center;
 }
@@ -331,4 +331,54 @@ footer p {
     font-size: 14px;
     color: #ccc;
     margin-top: 20px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #0a0a23;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.smiley {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon:hover {
+    color: #ccc;
 }
